@@ -1,3 +1,6 @@
+Pass Manually
+
+
 Amazon Linux 2023
 
 
@@ -51,7 +54,7 @@ cat ~/.bash_profile
 
 # Setup Jenkins .m2 directory and Maven settings.xml
 mkdir -p /var/lib/jenkins/.m2
-wget https://raw.githubusercontent.com/Oluwole-Faluwoye/Jenkins-Maven-Sonarqube-Nexus-AmazonLinux2023/refs/heads/main/settings.xml -P /var/lib/jenkins/.m2/
+wget https://raw.githubusercontent.com/AdenikeFaluwoye/Jenkins-Maven-SonarQube-Nexus/refs/heads/main/settings.xml -P /var/lib/jenkins/.m2/
 
 # Set correct permissions
 chown -R jenkins:jenkins /var/lib/jenkins/.m2
